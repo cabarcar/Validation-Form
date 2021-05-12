@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+input:focus {
+    outline: 0;
+ }
+
+ select:focus{
+     outline: 0;
+ }
+
+ textarea:focus{
+     outline: 0;
+ }
+
+body{
+    background-image: url(../img/bkg.jpg);
+    background-position-x: left;
+    background-position-y: center;
+}
+
+#box{
+    background-color: rgba(255, 0, 98, 0.356);
+	position: absolute;
+	height: 500px;
+	width: 350px;
+	left: 50%;
+	top: 10%;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+
+#tc{
+    color: white;
+    margin-top: 5px;
+}
+
+#input{
+    
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color: black;
+    background-color: transparent;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#input:focus{
+    background-color: rgba(255, 106, 20, 0.397);
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+#msg::-webkit-input-placeholder{
+    text-align: center;
+}
+
+
+
+.log{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.log #msg{
+    width: 260px;
+    height: 140px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color: black;
+    background-color: transparent;
+    color: white;
+}
+
+.log #msg:hover{
+    background-color: rgba(255, 106, 20, 0.397);
+}
+
+#send{
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 98, 0.363);
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#send:hover{
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 98, 0.651);
+    border-color: transparent;
+    color: white;
+}
+

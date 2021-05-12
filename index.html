@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Form</title>
+</head>
+
+<body>
+    
+    <div id="box"> 
+        <form class="log">
+            <input placeholder="Name" type="text" name="name" id="input">
+
+            <input placeholder="Phone" type="number" name="phone" id="input">
+
+            <input placeholder="E-Mail" type="email" name="email" id="input">
+
+            <select name="department" id="input">
+                <option value="">Select a department</option>
+                <option value="Sales">Sales</option>
+                <option value="Reception">Reception</option>
+                <option value="Customer Services">Customer Services</option>
+            </select>
+
+            <textarea placeholder="Message" id="msg" rows="30" cols="10" ></textarea>
+
+            <label id="tc" for="rmbr">Terms & Conditions</label>
+            <input type="checkbox" name="rmbr" id="rmbr" value="Yes">
+
+             <button id="send">Send</button>
+        </form>
+    </div>
+    
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
