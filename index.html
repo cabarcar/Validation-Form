@@ -9,16 +9,20 @@
 </head>
 
 <body>
+
+    <div id="msl">
+        <button id="list"><i class="far fa-envelope"></i></button>
+    </div>
     
     <div id="box"> 
         <form class="log">
-            <input placeholder="Name" type="text" name="name" id="input">
+            <input placeholder="Name" class="input" type="text" name="name" id="name">
 
-            <input placeholder="Phone" type="number" name="phone" id="input">
+            <input placeholder="Phone" class="input" type="number" name="phone" id="phone">
 
-            <input placeholder="E-Mail" type="email" name="email" id="input">
+            <input placeholder="E-Mail" class="input" type="email" name="email" id="email">
 
-            <select name="department" id="input">
+            <select name="department" class="input" id="select">
                 <option value="">Select a department</option>
                 <option value="Sales">Sales</option>
                 <option value="Reception">Reception</option>
@@ -28,13 +32,24 @@
             <textarea placeholder="Message" id="msg" rows="30" cols="10" ></textarea>
 
             <label id="tc" for="rmbr">Terms & Conditions</label>
-            <input type="checkbox" name="rmbr" id="rmbr" value="Yes">
+            <input type="checkbox" name="t&c" id="rmbr" value="Yes">
 
-             <button id="send">Send</button>
+             <input id="send" type="submit" value="send">
         </form>
     </div>
-    
 
+    <div id="sms">
+        <div id="smsbox">
+
+        </div>
+    </div>
+
+    <div id="seccion">
+        <div id="notification" class="notifications"></div>
+    </div>
+        
+    
+<script src="https://kit.fontawesome.com/f0f54f9883.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="assets/js/script.js"></script>
 
